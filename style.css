@@ -20,7 +20,7 @@ body{
 				background-color: var(--Careyspink);
 				color: var(--Gunpowder);
 				font-family: 'Nunito', serif;
-				font-size: 20px;		
+				font-size: 45px;		
 	}
 				
 .intro{
@@ -31,18 +31,18 @@ body{
   padding: 20px;
   color: var(--White);
   text-shadow: 2px 2px 5px var(--Santasgray);
-  font-size:30px;
+  font-size:60px;
 }
 
 h2 {
-				font-size: 25px;
+				font-size: 35px;
 				font-family: 'Yeseva One', cursive;
 				color: var(--White);
 }
 
 h3 {
 				font-family: 'Pacifico', cursive;
-				font-size: 20px;
+				font-size: 30px;
 }
 
 /*Skills images*/
@@ -58,7 +58,7 @@ div.polaroid {
 div.container {
   text-align: center;
   padding: 10px 20px;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 
@@ -66,7 +66,7 @@ div.container {
   text-align: center;
   display: flex;
   padding: 5rem;
-  font-size: 18px;  					            
+  font-size: 40px;  					            
 }
 
 .points .passion{
