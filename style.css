@@ -1,0 +1,98 @@
+:root{
+    --Gunpowder: #484B66;
+    --Careyspink: #D19DA5;
+    --Amethystsmoke: #9487A4;
+    --Santasgray: #9897AA;
+    --LightGray: #aaa;
+    --White: #ffffff ;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {  
+  padding: 10px;
+  	background-color: var(--Careyspink);
+  	background-image: url("overlay.png");
+  	background-repeat: repeat;
+}
+
+.header {
+  padding: 50px;
+  text-align: center;
+  color: var(--White);  
+  background-image: url("bg.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+
+.header h1 {
+  font-family: 'Yeseva One', cursive;
+  font-size: 50px;
+}
+
+h2, h5, h3 {
+  font-family: 'Yeseva One', cursive;
+  color: var(--Gunpowder);
+}
+
+p{
+  font-family: 'Pacifico', cursive;
+}
+
+/* Create two unequal columns that floats next to each other */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: var(--Careyspink);
+  padding-left: 20px;
+}
+
+.img {
+  background-color: var(--LightGray);
+  width: 100%;
+  padding: 5px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: var(--White);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.footer {
+  padding: 20px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
